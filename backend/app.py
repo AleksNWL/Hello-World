@@ -1,4 +1,3 @@
-# Backend: Flask app
 from flask import Flask, request, jsonify
 import jwt
 import datetime

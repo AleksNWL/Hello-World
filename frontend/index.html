@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auth System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Authentication System</h1>
+    <div id="forms">
+        <div id="register">
+            <h2>Register</h2>
+            <form id="registerForm">
+                <label for="regEmail">Email:</label><br>
+                <input type="email" id="regEmail" name="regEmail"><br><br>
+                <label for="regPassword">Password:</label><br>
+                <input type="password" id="regPassword" name="regPassword"><br><br>
+                <button type="button" onclick="register()">Register</button>
+            </form>
+            <p id="registerMessage"></p>
+        </div>
+
+        <div id="login">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <label for="loginEmail">Email:</label><br>
+                <input type="email" id="loginEmail" name="loginEmail"><br><br>
+                <label for="loginPassword">Password:</label><br>
+                <input type="password" id="loginPassword" name="loginPassword"><br><br>
+                <button type="button" onclick="login()">Login</button>
+            </form>
+            <p id="loginMessage"></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
